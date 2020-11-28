@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.start{
+    background-color: #ffaf2e;
+    font-size: 150%;    
+}
+
+
+.enter{
+    border:1px solid white;
+    padding:20px;
+    width: 70px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;   
+}
+.text-white{
+    max-width: 700px;
+    min-width: 100px;
+    margin:auto;
+    text-align:left;
+    color: white;
+}
+.text-white a{  
+    text-decoration: none;
+    color: white;
+}
+.text-white a:hover{
+    color: blue;
+}
+
+.page-navigation{ 
+    min-width: 320px;     
+    margin-top: 30px; 
+    display: flex;   
+    justify-content: space-between; 
+       
+}
+.page-navigation nav a{
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    border:1px solid white;
+    text-align: center;
+    
+     
+    padding:20px;
+    margin: 5px;
+
+}
+.page-navigation nav a:hover{
+    border:1px solid black;
+}
+.page-navigation nav a:focus{
+    
+    color: white;
+    background-color: black;
+}
+.text-black{
+    color: black;
+    max-width: 700px;
+    min-width: 100px;
+    margin: 50px;
+      
+}
+.text-black a{
+    text-decoration: none;
+    color: black;
+
+}
+.text-black a:hover{
+    color: blue;
+}
+.images{    
+    position: relative;
+   
+}
+
+.image-text{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+}
