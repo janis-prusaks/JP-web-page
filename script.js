@@ -1,5 +1,9 @@
 
 
+$("main").loadTemplate("start.html");
+
+
+
 window.addEventListener("hashchange", function () {
     if (location.hash == "#start.html") {
         console.log("test-start");
@@ -17,9 +21,12 @@ window.addEventListener("hashchange", function () {
     if(location.hash == "#kontakti.html"){
         console.log("test-kontakti");
         $("main").loadTemplate("kontakti.html");
-
-
+    }
+    if(location.hash == "#test.html"){
+        console.log("test-test");
+        $("main").loadTemplate("test.html");
     }
 });
+
 
 
