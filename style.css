@@ -60,7 +60,7 @@ body{
     max-width: 900px;
     min-width: 100px;
     margin: 50px;
-    padding: 80px;
+    padding: 30px;
     margin:auto;
       
 }
@@ -72,21 +72,39 @@ body{
 .text-black a:hover{
     color: blue;
 }
+
+.text-blue{
+    color:  #2e82ff;
+    max-width: 900px;
+    min-width: 100px;
+    margin: 50px;
+    padding-top: 80px;
+    margin:auto;
+      
+}
 .images{    
     position: relative;
     top: 16px;
     margin: 15px;
+    margin-bottom: 0;
 
    
+}
+.images-centred{
+    margin: auto;
+
 }
 
 .image-text{
     position: absolute;
     left: 20px;
     top: 20px;
-    color: rgb(0, 0, 0);
+    color: white;
+    background-color: #2e82ff;
     font-size: 25px;
+    padding: 15px;
 }
+
 
 .to-top a{
     text-decoration: none;
