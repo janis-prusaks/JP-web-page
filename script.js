@@ -1,15 +1,15 @@
 
-
-$("main").loadTemplate("start.html");
-
+let file_name = "index.html";
+$("main").loadTemplate("start.html", {
+  source: file_name
+});
 
 
 window.addEventListener("hashchange", function () {
     if (location.hash == "#start.html") {
         console.log("test-start");
         $("main").loadTemplate("start.html");
-    }
-    
+    }    
     if (location.hash == "#pieredze.html") {
         console.log("test-pieredze");
         $("main").loadTemplate("pieredze.html");
@@ -21,12 +21,6 @@ window.addEventListener("hashchange", function () {
     if(location.hash == "#kontakti.html"){
         console.log("test-kontakti");
         $("main").loadTemplate("kontakti.html");
-    }
-    if(location.hash == "#test.html"){
-        console.log("test-test");
-        $("main").loadTemplate("test.html");
-    }
+    }  
 });
-
-
 
