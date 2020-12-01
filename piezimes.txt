@@ -1,7 +1,0 @@
-start lapā:
-text no augšas atbīdīt
-startējot lapu, nav sākuma lapa;
-pielikt responsivitāti;
-sakārtot text max width;
-2e82ff
-#ffaf2e

@@ -1,9 +1,4 @@
-
-let file_name = "index.html";
-$("main").loadTemplate("start.html", {
-  source: file_name
-});
-
+$("main").loadTemplate("start.html");
 
 window.addEventListener("hashchange", function () {
     if (location.hash == "#start.html") {
@@ -23,4 +18,3 @@ window.addEventListener("hashchange", function () {
         $("main").loadTemplate("kontakti.html");
     }  
 });
-

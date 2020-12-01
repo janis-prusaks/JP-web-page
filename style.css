@@ -7,7 +7,7 @@ body{
     height: 100vh;   
 }
 .text-white{
-    max-width: 700px;
+    max-width: 650px;
     min-width: 300px;
     font-size: 150%;
     margin:auto;
@@ -32,7 +32,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    border:1px solid white;
+    border:1px dotted black;
     text-align: center;    
     padding:20px;
     margin-right: 5px;
@@ -46,18 +46,19 @@ body{
 }
 .text-black{
     color: black;
-    max-width: 700px;
-    min-width: 300px;
+    max-width: 650px;
+    min-width: 400px;
     margin: 50px;
     padding: 30px;
     margin:auto;      
 }
 .text-black a{
     text-decoration: none;
+    min-width: 400px;
     color: #2e82ff;
     padding: 10px 15px;
     border: 1px solid  #2e82ff;
-
+    border-bottom: 3px solid  #2e82ff;
 }
 .text-black a:hover{
     color: blue;
@@ -65,7 +66,7 @@ body{
 }
 .text-blue{
     color:  #2e82ff;
-    max-width: 900px;
+    max-width: 650px;
     min-width: 300px;
     margin: 50px;
     padding-top: 80px;
@@ -74,18 +75,19 @@ body{
 .images{    
     position: relative;
     top: 16px;
-    margin: 20px 15px 0;
-       
+    margin: 20px 15px 0;       
 }
 .image-text{
     position: absolute;
     left: 20px;
     top: 20px;
     min-width: 300px;
-    color: white;
-    background-color: #2e82ff;
+    color: #2e82ff;
+    background-color: white ;
     font-size: 25px;
     padding: 15px;
+    border: 1px solid  #2e82ff;
+    border-bottom: 3px solid  #2e82ff;
 }
 .to-top a{
     text-decoration: none;
@@ -99,15 +101,15 @@ body{
     bottom: 15px;
     right: 15px;
 }
-.text-kontakti{
+.text-kontakti{    
     color:   #2e82ff;     
-    margin-left: 505px;
-    margin-top: -36px;
+    margin: 36px 15px 15px;   
     font-size: 110%;
     padding: 5px 15px;
-    width: 220px;
+    min-width: 300px; 
     line-height: 1.8;
-    border: 1px solid  #2e82ff;     
+    border: 1px solid  #2e82ff;
+    border-bottom: 3px solid  #2e82ff;     
 }
 
 @media only screen and (max-width: 1200px){
@@ -130,10 +132,6 @@ body{
         left: 0;
         top: 0;
     }
-    .text-kontakti{          
-        margin-left: 233px;
-        margin-top: 30px;             
-    }
 }
 @media only screen and (max-width: 700px){
     .image-text{
@@ -142,15 +140,12 @@ body{
     .text-white{
         font-size: 120%;
     }
-
 }
 @media only screen and (max-width: 550px){
     .image-text{
-      position: relative;      
-      
-    }
-    .page-navigation nav a{ 
-        
+      position: relative;
+     }
+    .page-navigation nav a{         
         display: flex;   
         flex-direction: column;
         width: 130px;    
@@ -158,13 +153,13 @@ body{
         padding:20px;       
         margin-left: 5px;
         margin-bottom: 5px;
-        border:1px solid white;                     
+        border:1px dotted black;                     
     }
     .page-navigation nav a:hover{
         border:1px solid black;       
     }
     .text-kontakti{          
-        margin-left: 18px;
-        margin-top: 15px;             
-    }
+        margin-left: 17px;
+        margin-top: 5px;             
+    }  
 }
