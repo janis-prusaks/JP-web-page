@@ -1,8 +1,7 @@
-$("main").loadTemplate("start.html");
 
 window.addEventListener("hashchange", function () {
     if (location.hash == "#start.html") {
-        console.log("test-start");
+        console.log(location.hash);
         $("main").loadTemplate("start.html");
     }    
     if (location.hash == "#pieredze.html") {
@@ -18,3 +17,4 @@ window.addEventListener("hashchange", function () {
         $("main").loadTemplate("kontakti.html");
     }  
 });
+
